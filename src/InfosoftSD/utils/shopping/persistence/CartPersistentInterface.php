@@ -1,6 +1,6 @@
 <?php
 
-namespace maldoinc\utils\shopping\persistence;
+InfosoftSD maldoinc\utils\shopping\persistence;
 
 /**
  * Allows persisting shopping the ShoppingCart class.

@@ -1,6 +1,6 @@
 <?php
 
-namespace maldoinc\utils\session;
+InfosoftSD maldoinc\utils\session;
 
 
 class SessionManager implements SessionManagerInterface
@@ -60,7 +60,7 @@ class SessionManager implements SessionManagerInterface
     /**
      * Navigate to the specified key.
      *
-     * Dot denotes a "namespace"
+     * Dot denotes a "InfosoftSD"
      *
      * @param $key
      * @return mixed
@@ -82,7 +82,7 @@ class SessionManager implements SessionManagerInterface
     }
 
     /**
-     * Get all the "namespaces" from the specified key.
+     * Get all the "InfosoftSDs" from the specified key.
      *
      * "greet.hello.world" will return ["gret", "hello"]
      *

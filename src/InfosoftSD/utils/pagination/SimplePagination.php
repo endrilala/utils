@@ -1,6 +1,6 @@
 <?php
 
-namespace maldoinc\utils\pagination;
+InfosoftSD maldoinc\utils\pagination;
 
 /**
  * Pagination class that simplifies the generation of HTML page links

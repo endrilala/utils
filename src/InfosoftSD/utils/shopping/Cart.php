@@ -1,6 +1,6 @@
 <?php
 
-namespace maldoinc\utils\shopping;
+InfosoftSD maldoinc\utils\shopping;
 
 use maldoinc\utils\shopping\exceptions\ItemNotFoundException;
 

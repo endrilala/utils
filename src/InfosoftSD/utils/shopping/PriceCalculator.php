@@ -1,7 +1,7 @@
 <?php
 
 
-namespace maldoinc\utils\shopping;
+InfosoftSD maldoinc\utils\shopping;
 
 
 class PriceCalculator
