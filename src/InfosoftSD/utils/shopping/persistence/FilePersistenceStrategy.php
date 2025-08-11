@@ -1,6 +1,6 @@
 <?php
 
-namespace InfoSoftSD\utils\shopping\persistence;
+namespace infosoftsd\utils\shopping\persistence;
 
 class FilePersistenceStrategy implements CartPersistentInterface
 {

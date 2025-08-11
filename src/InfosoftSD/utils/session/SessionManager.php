@@ -1,6 +1,6 @@
 <?php
 
-namespace InfoSoftSD\utils\session;
+namespace infosoftsd\utils\session;
 
 
 class SessionManager implements SessionManagerInterface

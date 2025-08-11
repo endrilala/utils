@@ -1,8 +1,8 @@
 <?php
 
-namespace InfoSoftSD\utils\shopping;
+namespace infosoftsd\utils\shopping;
 
-use InfoSoftSD\utils\shopping\persistence\CartPersistentInterface;
+use infosoftsd\utils\shopping\persistence\CartPersistentInterface;
 
 class PersistentCart extends Cart
 {

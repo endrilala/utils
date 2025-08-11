@@ -1,10 +1,10 @@
 <?php
 
-namespace InfoSoftSD\utils\shopping;
+namespace infosoftsd\utils\shopping;
 
 /**
  * Class ShoppingCartItem
- * @package InfoSoftSD
+ * @package infosoftsd
  */
 class CartItem
 {

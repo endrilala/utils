@@ -1,5 +1,5 @@
 {
-    "name": "InfoSoftSD/utils",
+    "name": "infosoftsd/utils",
     "description": "Generic utilities for application development",
     "require-dev": {
         "phpunit/phpunit": "dev-master"
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "InfoSoftSD\\": "src/InfoSoftSD"
+            "infosoftsd\\": "src/infosoftsd"
         }
     }
 }

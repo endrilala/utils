@@ -1,6 +1,6 @@
 <?php
 
-namespace InfoSoftSD\utils\pagination;
+namespace infosoftsd\utils\pagination;
 
 class Pagination
 {
