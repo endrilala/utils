@@ -1,6 +1,6 @@
 <?php
 
-use infosoftsd\utils\session\SessionManager;
+use endrilala\utils\session\SessionManager;
 
 class TestSessionManager extends PHPUnit_Framework_TestCase
 {
@@ -49,7 +49,7 @@ class TestSessionManager extends PHPUnit_Framework_TestCase
         // test set multi dimensional array
         $this->mgr->set('user', $this->getMultiDimensionalArray());
 
-        $this->assertEquals('infosoftsd', $this->mock[$this->baseKey]['user']['name']);
+        $this->assertEquals('endrilala', $this->mock[$this->baseKey]['user']['name']);
 
         $this->mgr->set('cls', new stdClass());
         $this->mgr->set('cls.newprop', function(){
@@ -65,7 +65,7 @@ class TestSessionManager extends PHPUnit_Framework_TestCase
                 'id'   => 1,
                 'name' => 'Developers'
             ),
-            'name' => 'infosoftsd'
+            'name' => 'endrilala'
         );
     }
 
@@ -78,7 +78,7 @@ class TestSessionManager extends PHPUnit_Framework_TestCase
         $this->assertEquals('aldo', $this->mgr->get('app.user.name'));
 
         $this->mgr->set('user', $this->getMultiDimensionalArray());
-        $this->assertEquals('infosoftsd', $this->mgr->get('user.name'));
+        $this->assertEquals('endrilala', $this->mgr->get('user.name'));
         $this->assertEquals('Developers', $this->mgr->get('user.role.name'));
         $this->assertEquals(1, $this->mgr->get('user.role.id'));
     }
@@ -88,7 +88,7 @@ class TestSessionManager extends PHPUnit_Framework_TestCase
         $this->mgr->remove('hello');
         $this->assertEquals(null, $this->mgr->get('hello'));
 
-        $this->mgr->set('user', array('name' => 'infosoftsd', 'roleId' => 1, 'roleName' => 'Developers'));
+        $this->mgr->set('user', array('name' => 'endrilala', 'roleId' => 1, 'roleName' => 'Developers'));
 
         $this->mgr->remove('user.name');
         $this->assertEquals(array('roleName' => 'Developers', 'roleId' => 1), $this->mgr->get('user'));
@@ -144,10 +144,10 @@ class TestSessionManager extends PHPUnit_Framework_TestCase
         $this->assertEquals('world', $this->mgr->pull('hello'));
         $this->assertEquals(null, $this->mgr->get('hello'));
 
-        $this->mgr->set('user.name', 'infosoftsd');
+        $this->mgr->set('user.name', 'endrilala');
         $user = $this->mgr->pull('user');
 
         $this->assertEquals(false, $this->mgr->has('user'));
-        $this->assertEquals(array('name' => 'infosoftsd'), $user);
+        $this->assertEquals(array('name' => 'endrilala'), $user);
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace infosoftsd\utils\session;
+namespace endrilala\utils\session;
 
 interface SessionManagerInterface
 {

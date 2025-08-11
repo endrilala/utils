@@ -1,7 +1,7 @@
-<phpunit bootstrap="src/infosoftsd/utils/autoload.php">
+<phpunit bootstrap="src/endrilala/utils/autoload.php">
     <filter>
         <blacklist>
-            <file>src/infosoftsd/utils/autoload.php</file>
+            <file>src/endrilala/utils/autoload.php</file>
         </blacklist>
     </filter>
     <testsuites>

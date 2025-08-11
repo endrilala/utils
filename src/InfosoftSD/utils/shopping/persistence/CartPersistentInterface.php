@@ -1,6 +1,6 @@
 <?php
 
-namespace infosoftsd\utils\shopping\persistence;
+namespace endrilala\utils\shopping\persistence;
 
 /**
  * Allows persisting shopping the ShoppingCart class.
@@ -10,7 +10,7 @@ namespace infosoftsd\utils\shopping\persistence;
  * the interface to decide how to do it.
  *
  * Interface ShoppingCartPersistentInterface
- * @package infosoftsd\utils\shopping
+ * @package endrilala\utils\shopping
  */
 interface CartPersistentInterface
 {

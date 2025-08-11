@@ -1,8 +1,8 @@
 <?php
 
-namespace infosoftsd\utils\shopping;
+namespace endrilala\utils\shopping;
 
-use infosoftsd\utils\shopping\exceptions\ItemNotFoundException;
+use endrilala\utils\shopping\exceptions\ItemNotFoundException;
 
 class Cart implements \Countable
 {

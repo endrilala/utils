@@ -1,6 +1,6 @@
 <?php
 
-use infosoftsd\utils\pagination\Pagination;
+use endrilala\utils\pagination\Pagination;
 
 class PaginationTest extends PHPUnit_Framework_TestCase
 {

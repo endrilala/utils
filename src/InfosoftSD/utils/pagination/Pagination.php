@@ -1,6 +1,6 @@
 <?php
 
-namespace infosoftsd\utils\pagination;
+namespace endrilala\utils\pagination;
 
 class Pagination
 {

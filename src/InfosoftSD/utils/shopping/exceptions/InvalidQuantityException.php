@@ -1,6 +1,6 @@
 <?php
 
-namespace infosoftsd\utils\shopping\exceptions;
+namespace endrilala\utils\shopping\exceptions;
 
 class InvalidQuantityException extends \Exception
 {

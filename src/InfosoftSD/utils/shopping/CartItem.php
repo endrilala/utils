@@ -1,10 +1,10 @@
 <?php
 
-namespace infosoftsd\utils\shopping;
+namespace endrilala\utils\shopping;
 
 /**
  * Class ShoppingCartItem
- * @package infosoftsd
+ * @package endrilala
  */
 class CartItem
 {

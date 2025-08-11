@@ -1,5 +1,5 @@
 {
-    "name": "infosoftsd/utils",
+    "name": "endrilala/utils",
     "description": "Generic utilities for application development",
     "require-dev": {
         "phpunit/phpunit": "dev-master"
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "infosoftsd\\": "src/infosoftsd"
+            "endrilala\\": "src/endrilala"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace infosoftsd\utils\shopping\persistence;
+namespace endrilala\utils\shopping\persistence;
 
 class NullPersistenceStrategy implements CartPersistentInterface
 {

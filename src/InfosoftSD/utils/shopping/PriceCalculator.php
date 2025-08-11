@@ -1,7 +1,7 @@
 <?php
 
 
-namespace infosoftsd\utils\shopping;
+namespace endrilala\utils\shopping;
 
 
 class PriceCalculator

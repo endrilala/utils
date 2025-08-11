@@ -1,8 +1,8 @@
 <?php
 
-namespace infosoftsd\utils\shopping\persistence;
+namespace endrilala\utils\shopping\persistence;
 
-use infosoftsd\utils\session\SessionManagerInterface;
+use endrilala\utils\session\SessionManagerInterface;
 
 class SessionPersistenceStrategy implements CartPersistentInterface
 {

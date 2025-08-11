@@ -1,6 +1,6 @@
 <?php
 
-use infosoftsd\utils\shopping\CartItem;
+use endrilala\utils\shopping\CartItem;
 
 class CartItemTests extends PHPUnit_Framework_TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace infosoftsd\utils\pagination;
+namespace endrilala\utils\pagination;
 
 /**
  * Pagination class that simplifies the generation of HTML page links
@@ -9,7 +9,7 @@ namespace infosoftsd\utils\pagination;
  * Class also implements __toString method, so you can just call it from your favourite templating engine as is
  *
  * Class SimplePagination
- * @package infosoftsd\utils\pagination
+ * @package endrilala\utils\pagination
  */
 class SimplePagination extends Pagination
 {
