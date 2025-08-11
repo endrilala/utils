@@ -1,6 +1,6 @@
 <?php
 
-InfosoftSD maldoinc\utils\pagination;
+namespace InfoSoftSD\utils\pagination;
 
 class Pagination
 {

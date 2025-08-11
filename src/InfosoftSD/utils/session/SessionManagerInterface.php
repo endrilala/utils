@@ -1,6 +1,6 @@
 <?php
 
-InfosoftSD maldoinc\utils\session;
+namespace InfoSoftSD\utils\session;
 
 interface SessionManagerInterface
 {

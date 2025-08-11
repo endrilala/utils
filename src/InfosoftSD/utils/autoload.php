@@ -1,18 +1,18 @@
 <?php
 
-InfosoftSD maldoinc\utils;
+namespace InfoSoftSD\utils;
 
 // see: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md
 spl_autoload_register(function ($class) {
 
-    // project-specific InfosoftSD prefix
-    $prefix = __InfosoftSD__;
+    // project-specific namespace prefix
+    $prefix = __namespace__;
 
     // base d
-    //irectory for the InfosoftSD prefix
+    //irectory for the namespace prefix
     $base_dir = __DIR__;
 
-    // does the class use the InfosoftSD prefix?
+    // does the class use the namespace prefix?
     $len = strlen($prefix);
     if (strncmp($prefix, $class, $len) !== 0) {
         // no, move to the next registered autoloader
@@ -22,7 +22,7 @@ spl_autoload_register(function ($class) {
     // get the relative class name
     $relative_class = substr($class, $len);
 
-    // replace the InfosoftSD prefix with the base directory, replace InfosoftSD
+    // replace the namespace prefix with the base directory, replace namespace
     // separators with directory separators in the relative class name, append
     // with .php
     $file = $base_dir . str_replace('\\', '/', $relative_class) . '.php';

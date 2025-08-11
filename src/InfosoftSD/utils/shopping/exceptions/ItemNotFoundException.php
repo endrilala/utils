@@ -1,6 +1,6 @@
 <?php
 
-InfosoftSD maldoinc\utils\shopping\exceptions;
+namespace InfoSoftSD\utils\shopping\exceptions;
 
 class ItemNotFoundException extends \Exception
 {

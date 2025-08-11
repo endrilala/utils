@@ -1,8 +1,8 @@
 <?php
 
-InfosoftSD maldoinc\utils\shopping\persistence;
+namespace InfoSoftSD\utils\shopping\persistence;
 
-use maldoinc\utils\session\SessionManagerInterface;
+use InfoSoftSD\utils\session\SessionManagerInterface;
 
 class SessionPersistenceStrategy implements CartPersistentInterface
 {

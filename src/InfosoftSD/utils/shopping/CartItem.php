@@ -1,10 +1,10 @@
 <?php
 
-InfosoftSD maldoinc\utils\shopping;
+namespace InfoSoftSD\utils\shopping;
 
 /**
  * Class ShoppingCartItem
- * @package maldoinc
+ * @package InfoSoftSD
  */
 class CartItem
 {

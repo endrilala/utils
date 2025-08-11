@@ -1,8 +1,8 @@
 <?php
 
-InfosoftSD maldoinc\utils\shopping;
+namespace InfoSoftSD\utils\shopping;
 
-use maldoinc\utils\shopping\persistence\CartPersistentInterface;
+use InfoSoftSD\utils\shopping\persistence\CartPersistentInterface;
 
 class PersistentCart extends Cart
 {

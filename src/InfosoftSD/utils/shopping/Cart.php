@@ -1,8 +1,8 @@
 <?php
 
-InfosoftSD maldoinc\utils\shopping;
+namespace InfoSoftSD\utils\shopping;
 
-use maldoinc\utils\shopping\exceptions\ItemNotFoundException;
+use InfoSoftSD\utils\shopping\exceptions\ItemNotFoundException;
 
 class Cart implements \Countable
 {
