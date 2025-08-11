@@ -1,6 +1,6 @@
 <?php
 
-use maldoinc\utils\pagination\SimplePagination;
+use InfoSoftSD\utils\pagination\SimplePagination;
 
 class SimplePaginationTest extends PHPUnit_Framework_TestCase
 {

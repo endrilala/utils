@@ -1,6 +1,6 @@
 <?php
 
-use maldoinc\utils\shopping\PriceCalculator;
+use InfoSoftSD\utils\shopping\PriceCalculator;
 
 class PriceCalculatorTests extends PHPUnit_Framework_TestCase
 {

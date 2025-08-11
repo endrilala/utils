@@ -1,10 +1,10 @@
 <?php
 
-use maldoinc\utils\session\SessionManager;
-use maldoinc\utils\shopping\CartItem;
-use maldoinc\utils\shopping\persistence\FilePersistenceStrategy;
-use maldoinc\utils\shopping\persistence\SessionPersistenceStrategy;
-use maldoinc\utils\shopping\PersistentCart;
+use InfoSoftSD\utils\session\SessionManager;
+use InfoSoftSD\utils\shopping\CartItem;
+use InfoSoftSD\utils\shopping\persistence\FilePersistenceStrategy;
+use InfoSoftSD\utils\shopping\persistence\SessionPersistenceStrategy;
+use InfoSoftSD\utils\shopping\PersistentCart;
 
 class PersistentShoppingCartTests extends PHPUnit_Framework_TestCase
 {

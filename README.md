@@ -2,9 +2,9 @@
 
 Generic utility classes for application development
 
-[![Travis](https://api.travis-ci.org/maldoinc/utils.svg)](https://travis-ci.org/maldoinc/utils)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/maldoinc/utils/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/maldoinc/utils/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/maldoinc/utils/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/maldoinc/utils/?branch=master)
+[![Travis](https://api.travis-ci.org/InfoSoftSD/utils.svg)](https://travis-ci.org/InfoSoftSD/utils)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/InfoSoftSD/utils/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/InfoSoftSD/utils/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/InfoSoftSD/utils/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/InfoSoftSD/utils/?branch=master)
 
 
 # Installation
@@ -133,7 +133,7 @@ The session manager supports the following methods
 All the methods support the dot(`.`) character as a separator which allows reading/writing to multi-dimensional arrays.
 
 ```php
-$session->set('user.name', 'maldoinc'); // ['user' => ['name' => 'maldoinc']]
+$session->set('user.name', 'InfoSoftSD'); // ['user' => ['name' => 'InfoSoftSD']]
 
 /* session data
 
@@ -143,11 +143,11 @@ array(
             'id'   => 1,
             'name' => 'Developers'
         ],
-        'name' => 'maldoinc'
+        'name' => 'InfoSoftSD'
     ]
 );
 */
-$name = $session->get('user.name'); // maldoinc
+$name = $session->get('user.name'); // InfoSoftSD
 $role_name = $session->get('user.role.name'); // Developers
 ```
 ---

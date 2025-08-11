@@ -1,9 +1,9 @@
 <?php
 
-use maldoinc\utils\shopping\exceptions\InvalidQuantityException;
-use maldoinc\utils\shopping\Cart;
-use maldoinc\utils\shopping\CartItem;
-use maldoinc\utils\shopping\exceptions\ItemNotFoundException;
+use InfoSoftSD\utils\shopping\exceptions\InvalidQuantityException;
+use InfoSoftSD\utils\shopping\Cart;
+use InfoSoftSD\utils\shopping\CartItem;
+use InfoSoftSD\utils\shopping\exceptions\ItemNotFoundException;
 
 class ShoppingCartTests extends PHPUnit_Framework_TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-use maldoinc\utils\shopping\CartItem;
+use InfoSoftSD\utils\shopping\CartItem;
 
 class CartItemTests extends PHPUnit_Framework_TestCase
 {
